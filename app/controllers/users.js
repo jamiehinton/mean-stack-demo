@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var mongoose = require('mongoose')
-  , User = mongoose.model('User')
+var mongoose = require('mongoose'),
+    User = mongoose.model('User')
 
 //exports.signin = function (req, res) {}
 
@@ -61,7 +61,7 @@ exports.session = function (req, res) {
 
 exports.create = function (req, res) {
   var user = new User(req.body)
-  user.provider = 'local'
+  user.provider = 'local';
   user.save(function (err) {
     if (err) {
       return res.render('users/signup', { errors: err.errors, user: user })
