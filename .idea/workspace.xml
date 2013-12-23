@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1251ae86-3007-40ab-a712-7ed73d3bd2ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/config.js" afterPath="$PROJECT_DIR$/public/js/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/directives.js" afterPath="$PROJECT_DIR$/public/js/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/includes/foot.jade" afterPath="$PROJECT_DIR$/app/views/includes/foot.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="mean-stripdown.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +55,7 @@
       <file leaf-file-name="list.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/views/players/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="111" selection-end="111" vertical-scroll-proportion="0.060570072" vertical-offset="0" max-vertical-offset="842">
+            <state line="4" column="6" selection-start="132" selection-end="132" vertical-scroll-proportion="0.08076009" vertical-offset="0" max-vertical-offset="842">
               <folding />
             </state>
           </provider>
@@ -491,7 +488,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/players/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="111" selection-end="111" vertical-scroll-proportion="0.060570072" vertical-offset="0" max-vertical-offset="842">
+        <state line="4" column="6" selection-start="132" selection-end="132" vertical-scroll-proportion="0.08076009" vertical-offset="0" max-vertical-offset="842">
           <folding />
         </state>
       </provider>

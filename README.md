@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 mean-stripdown
 ==============
 
@@ -8,4 +8,4 @@ Stripdown of the mean.io stack for the ngFantasyFootball application
 =======
 mean-stack-demo
 ===============
->>>>>>> c60668fe84d428ef3013eab5038101452e2983d9
+
