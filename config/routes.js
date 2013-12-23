@@ -27,7 +27,7 @@ module.exports = function (app, passport, auth) {
 
     app.param('leagueId', leagues.league);
 
-//fantasy team routes
+    //fantasy team routes
 
     var fantasyteams = require('../app/controllers/fantasyteams');
     app.get('/fantasyteams', fantasyteams.all);
@@ -38,6 +38,12 @@ module.exports = function (app, passport, auth) {
 
     app.param('fantasyTeamId', fantasyteams.fantasyteam);
 
+
+    //players routes
+    var players = require('../app/controllers/players');
+    app.get('/players', players.all);
+    app.get('/players/:playerId', players.show);
+    app.param('playerId', players.player);
 
   // home route
   var index = require('../app/controllers/index')

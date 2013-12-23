@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1251ae86-3007-40ab-a712-7ed73d3bd2ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.js" afterPath="$PROJECT_DIR$/config/routes.js" />
     </list>
     <ignored path="mean-stripdown.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,15 +47,46 @@
         <entry file="file://$PROJECT_DIR$/public/views/players/searchlimitselect.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="9" selection-start="142" selection-end="142" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+              <folding>
+                <marker date="1387816130485" expanded="true" signature="26:141" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/players/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="6" selection-start="132" selection-end="132" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/views/players/list.html">
+      <file leaf-file-name="player.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="132" selection-end="132" vertical-scroll-proportion="0.08076009" vertical-offset="0" max-vertical-offset="842">
+            <state line="18" column="39" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <folding>
+                <marker date="1387817096934" expanded="true" signature="327:402" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="players.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/players.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="44" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="37" selection-start="377" selection-end="377" vertical-scroll-proportion="0.21543778" vertical-offset="0" max-vertical-offset="868">
               <folding />
             </state>
           </provider>
@@ -79,10 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/views/fantasyteams/edit.html" />
-        <option value="$PROJECT_DIR$/public/views/fantasyteams/view.html" />
-        <option value="$PROJECT_DIR$/public/js/controllers/header.js" />
-        <option value="$PROJECT_DIR$/public/views/header.html" />
         <option value="$PROJECT_DIR$/public/js/controllers/fantasyteams.js" />
         <option value="$PROJECT_DIR$/public/js/services/nfl.js" />
         <option value="$PROJECT_DIR$/public/js/controllers/players.js" />
@@ -95,6 +122,10 @@
         <option value="$PROJECT_DIR$/public/js/nflteamselect.html" />
         <option value="$PROJECT_DIR$/public/views/players/searchlimitselect.html" />
         <option value="$PROJECT_DIR$/public/views/players/list.html" />
+        <option value="$PROJECT_DIR$/app/models/player.js" />
+        <option value="$PROJECT_DIR$/app/models/players.js" />
+        <option value="$PROJECT_DIR$/app/controllers/players.js" />
+        <option value="$PROJECT_DIR$/config/routes.js" />
       </list>
     </option>
   </component>
@@ -158,7 +189,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -172,11 +203,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -190,15 +217,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="players" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,87 +235,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mean-stripdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mean-stripdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mean-stripdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mean-stripdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mean-stripdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mean-stripdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mean-stripdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mean-stripdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,6 +259,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\mean-stripdown\app\controllers" />
       <recent name="C:\code\mean-stripdown\public\views\players" />
       <recent name="C:\code\mean-stripdown\public\js\services" />
       <recent name="C:\code\mean-stripdown\public\views" />
@@ -393,26 +341,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/views/fantasyteams/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="367" selection-end="367" vertical-scroll-proportion="0.121140145" vertical-offset="0" max-vertical-offset="842" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/fantasyteams/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="636" selection-end="636" vertical-scroll-proportion="0.20190024" vertical-offset="0" max-vertical-offset="842" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/fantasyteams/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="926" selection-end="926" vertical-scroll-proportion="0.4038005" vertical-offset="0" max-vertical-offset="842" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/fantasyteams/view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="431" selection-end="431" vertical-scroll-proportion="0.20190024" vertical-offset="0" max-vertical-offset="842" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/controllers/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="32" selection-start="637" selection-end="637" vertical-scroll-proportion="0.39170507" vertical-offset="0" max-vertical-offset="868" />
@@ -482,13 +410,45 @@
     <entry file="file://$PROJECT_DIR$/public/views/players/searchlimitselect.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="9" selection-start="142" selection-end="142" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
-          <folding />
+          <folding>
+            <marker date="1387816130485" expanded="true" signature="26:141" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/players/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="132" selection-end="132" vertical-scroll-proportion="0.08076009" vertical-offset="0" max-vertical-offset="842">
+        <state line="4" column="6" selection-start="132" selection-end="132" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="39" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding>
+            <marker date="1387817096934" expanded="true" signature="327:402" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/players.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="44" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="42" selection-start="1686" selection-end="1686" vertical-scroll-proportion="0.8813364" vertical-offset="0" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="37" selection-start="377" selection-end="377" vertical-scroll-proportion="0.21543778" vertical-offset="0" max-vertical-offset="868">
           <folding />
         </state>
       </provider>
